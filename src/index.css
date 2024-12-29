@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .mycontainer {
+      @apply w-[90%] mx-auto px-28 py-6
+    }
+  }
